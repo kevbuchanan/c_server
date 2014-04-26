@@ -12,8 +12,8 @@
 
 ## Using Mocks
 
-* Add the mock in ``test/mocks/```
-* Add the mocked file to ```MOCKED`` in the Makefile
+* Add the mock in ```test/mocks/```
+* Add the mocked file to ```MOCKED``` in the Makefile
 
 ## Running
 
