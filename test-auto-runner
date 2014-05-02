@@ -1,0 +1,15 @@
+#!/bin/bash
+FILES="./test ./src ./include"
+
+time=0
+while true; do
+  newtime=$(find $FILES -exec stat -f "%m" \{} \; | sort -n -r | head -1)
+  if [ "$newtime" -gt "$time" ]; then
+      clear
+      make
+      ./spec
+  fi
+
+  time=$newtime;
+  sleep 1
+done

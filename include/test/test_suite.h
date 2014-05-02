@@ -1,6 +1,7 @@
 #ifndef TEST_SUITE_H
 #define TEST_SUITE_H
 
-TCase *math_test(void);
+TCase *server_test(void);
+TCase *request_test(void);
 
 #endif

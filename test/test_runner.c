@@ -2,10 +2,11 @@
 
 #include "test_suite.h"
 
-#define SUITE_NAME "My Spec"
+#define SUITE_NAME "Server Spec"
 
 void add_test_cases(Suite *suite) {
-  suite_add_tcase(suite, math_test());
+  suite_add_tcase(suite, server_test());
+  suite_add_tcase(suite, request_test());
 }
 
 int main() {

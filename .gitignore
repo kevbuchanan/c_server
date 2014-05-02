@@ -2,3 +2,5 @@
 *.gch
 main
 spec
+main.dSYM
+spec.dSYM
