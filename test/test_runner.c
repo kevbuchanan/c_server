@@ -7,6 +7,7 @@
 void add_test_cases(Suite *suite) {
   suite_add_tcase(suite, server_test());
   suite_add_tcase(suite, request_test());
+  suite_add_tcase(suite, response_test());
 }
 
 int main() {

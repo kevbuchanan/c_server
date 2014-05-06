@@ -1,0 +1,3 @@
+#!/bin/bash
+
+valgrind --tool=memcheck --dsymutil=yes --leak-check=full ./spec

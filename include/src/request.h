@@ -12,10 +12,10 @@ typedef enum {
 
 typedef struct Request {
   HttpMethod method;
-  char* route;
+  char *route;
 } Request;
 
-Request *request_create(HttpMethod method, char* route);
+Request *request_create(HttpMethod method, char *route);
 void request_free(Request *request);
 
 #endif
